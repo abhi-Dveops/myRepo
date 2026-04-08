@@ -1,0 +1,33 @@
+TRACK & COMMIT A FILE:
+Create a fi le :
+touch aws
+Track a fi le :
+git add aws
+To check the status :
+git status
+To commit the fi le :
+git commit -m “commit message” fi lename
+TRACK & COMMIT MULTIPLE FILES
+To track multiple fi les :
+git add fi le1 fi le2 fi le3
+To commit multiple fi les :
+git commit -m “commit message” fi le1 fi le2 fi le3
+TRACK & COMMIT ALL FILES
+To track all fi les :
+git add *
+To track all fi les including hidden fi les:
+git add .
+To commit all fi les :
+git commit -m “commit message” .
+Here dot (.) represents all the fi les which are present in staging area
+GIT LOG COMMANDS:
+To see the history of fi les :
+git log
+To see latest 2 commits :
+git log -2
+To see all commits-ids and messages :
+git log --oneline
+To see all full commits-ids and messages :
+git log --pretty=oneline
+GIT SHOW COMMAND:
+To get
